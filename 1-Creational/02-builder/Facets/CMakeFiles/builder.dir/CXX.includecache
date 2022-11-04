@@ -1,0 +1,52 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/main.cpp
+iostream
+-
+Person.h
+-
+AddressBuilder.h
+-
+EthnicityBuilder.h
+-
+PersonBuilder.h
+-
+JobBuilder.h
+-
+ProfileBuilder.h
+-
+
+AddressBuilder.h
+PersonBuilder.h
+-
+
+EthnicityBuilder.h
+PersonBuilder.h
+-
+
+JobBuilder.h
+PersonBuilder.h
+-
+
+Person.h
+iostream
+-
+memory
+-
+PersonBuilder.h
+-
+
+PersonBuilder.h
+Person.h
+-
+
+ProfileBuilder.h
+PersonBuilder.h
+-
+

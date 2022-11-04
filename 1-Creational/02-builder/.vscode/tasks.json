@@ -4,12 +4,15 @@
             "type": "cppbuild",
             "label": "C/C++: g++-9 build active file",
             "command": "/usr/bin/g++-9",
+            
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-I",
+                "${workspaceFolder}/Facets/",
             ],
             "options": {
                 "cwd": "${fileDirname}"
