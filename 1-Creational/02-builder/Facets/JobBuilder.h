@@ -5,7 +5,7 @@
 
 class JobBuilder: public PersonBuilder{
     public:
-        JobBuilder(){}
+        JobBuilder(std::unique_ptr<Person> p_):PersonBuilder(std::move(p_)){}
 
         JobBuilder& withJob(std::string occupation_);
     private:

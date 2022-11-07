@@ -5,7 +5,7 @@
 class PersonBuilder;
 class AddressBuilder: public PersonBuilder{
     public:
-        AddressBuilder(){}
+        AddressBuilder(std::unique_ptr<Person> p_):PersonBuilder(std::move(p_)){}
 
         AddressBuilder& inCity(std::string city_);
         AddressBuilder& inCountry(std::string country_);

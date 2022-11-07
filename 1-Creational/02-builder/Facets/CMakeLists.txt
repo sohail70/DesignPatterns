@@ -6,7 +6,7 @@ set(SOURCES
 	)
 
 if("${CMAKE_BUILD_TYPE}" STREQUAL "")
-	set(CMAKE_BUILD_TYPE Release CACHE STRING
+	set(CMAKE_BUILD_TYPE Debug CACHE STRING
 		"Type of build, options are: Debug, Release" FORCE)
 endif()
 

@@ -1,0 +1,3 @@
+/home/sohail/Design Patterns/1-Creational/Facets2/CMakeFiles/rebuild_cache.dir
+/home/sohail/Design Patterns/1-Creational/Facets2/CMakeFiles/edit_cache.dir
+/home/sohail/Design Patterns/1-Creational/Facets2/CMakeFiles/builder.dir

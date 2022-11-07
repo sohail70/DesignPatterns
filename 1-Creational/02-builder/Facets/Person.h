@@ -22,6 +22,10 @@ class Person{
         std::string color;
         std::string gender;
         std::string name;
+        std::string height;
+        std::string age;
+        std::string education;
+
 
         std::string nationality;
         std::string language;
@@ -32,24 +36,23 @@ class Person{
 
         std::string occupation;
         
-        std::string height;
-        std::string age;
-        std::string education;
+
 
         friend std::ostream& operator<< (std::ostream& out , Person& obj)
         {
             out <<"name: "<<obj.name<<"\n"
                 <<"gender: "<<obj.gender<<"\n"
                 <<"color: "<<obj.color<<"\n"
+                <<"height: "<<obj.height<<"\n"
+                <<"age: "<<obj.age<<"\n"
+                <<"education: "<<obj.education<<"\n"
                 <<"city: "<<obj.city<<"\n"
                 <<"country: "<<obj.country<<"\n"
                 <<"street: "<<obj.street<<"\n"
                 <<"nationality: "<<obj.nationality<<"\n"
                 <<"language: "<<obj.language<<"\n"
-                <<"occupation: "<<obj.occupation<<"\n"
-                <<"height: "<<obj.height<<"\n"
-                <<"age: "<<obj.age<<"\n"
-                <<"education: "<<obj.education<<"\n";
+                <<"occupation: "<<obj.occupation<<"\n";
+
             return out;
         }
 

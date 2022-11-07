@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/car.h
+vector
+-
+carPart.h
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/carPart.h
+
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/carPart.h
+
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/main.cpp
+iostream
+-
+topLevelCarPartFactory.h
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/topLevelCarPartFactory.h
+car.h
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/car.h
+
+/home/sohail/Design Patterns/1-Creational/FactoryBuildMixer/topLevelCarPartFactory.h
+map
+-
+

@@ -13,6 +13,7 @@ class JobBuilder;
 class ProfileBuilder;
 
 class PersonBuilder{
+
     public:
         PersonBuilder();
         
@@ -27,6 +28,7 @@ class PersonBuilder{
         }
     protected:
         std::unique_ptr<Person> p;
+        PersonBuilder(std::unique_ptr<Person> p_);
         
 };
 

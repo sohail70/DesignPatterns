@@ -6,6 +6,40 @@
 
 #IncludeRegexTransform: 
 
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/AddressBuilder.cpp
+AddressBuilder.h
+-
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/EthnicityBuilder.cpp
+EthnicityBuilder.h
+-
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/JobBuilder.cpp
+JobBuilder.h
+-
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/Person.cpp
+Person.h
+-
+memory
+-
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/PersonBuilder.cpp
+PersonBuilder.h
+-
+AddressBuilder.h
+-
+EthnicityBuilder.h
+-
+JobBuilder.h
+-
+ProfileBuilder.h
+-
+
+/home/sohail/Design Patterns/1-Creational/02-builder/Facets/ProfileBuilder.cpp
+ProfileBuilder.h
+-
+
 /home/sohail/Design Patterns/1-Creational/02-builder/Facets/main.cpp
 iostream
 -

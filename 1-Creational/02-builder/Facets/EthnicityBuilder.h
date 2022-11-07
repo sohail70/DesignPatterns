@@ -5,7 +5,7 @@
 
 class EthnicityBuilder: public PersonBuilder{
     public:
-        EthnicityBuilder(){}
+        EthnicityBuilder(std::unique_ptr<Person> p_):PersonBuilder(std::move(p_)){}
 
         EthnicityBuilder& withNationality(std::string nationality_);
         EthnicityBuilder& withLanguage(std::string language_);
